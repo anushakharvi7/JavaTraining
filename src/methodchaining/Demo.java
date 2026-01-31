@@ -15,7 +15,12 @@ public class Demo {
 	}public Demo m4() {
 		System.out.println("This is a Fourth method");
 		return this;
-	}public Demo m5() {
+	}
+	public Demo m5() {
+		System.out.println("This is a Fifth method");
+		return this;
+	}
+	public Demo m5() {
 		System.out.println("This is a Fifth method");
 		return this;
 	}
