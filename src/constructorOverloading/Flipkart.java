@@ -44,21 +44,20 @@ public class Flipkart {
 		System.out.println("----------------------");
 		System.out.println("This is a details of Student:"+sName);
 		System.out.println("----------------------");
-		System.out.println("Id:-"+sId);
-		System.out.println("Name:-"+sName);
-		System.out.println("Adress:-"+sAdress);
-		System.out.println("Department:-"+sDepartment);
-		System.out.println("BloodGroup:-"+sBloodGroup);
-		System.out.println("Section"+sSec);
+		System.out.println("Product:-"+sProdut);
+		System.out.println("Adress:-"+sAddress);
+		System.out.println("Price:-"+sPrice);
+		System.out.println("Contact number:-"+sCno);
+		System.out.println("Gender"+sGender);
 	}
 	void printProfData() {
 		System.out.println("----------------------");
-		System.out.println("This is a details of Professor:"+pName);
+		System.out.println("This is a details of Professor:"+eName);
 		System.out.println("----------------------");
-		System.out.println("Name:-"+pName);
-		System.out.println("Id:-"+pId);
-		System.out.println("Salary:-"+pSalary);
-		System.out.println("Department:-"+pDepartment);
+		System.out.println("Name:-"+eName);
+		System.out.println("Id:-"+eId);
+		System.out.println("Product:-"+eProdut);
+		System.out.println("Contact:-"+eCno);
 	}
 	public static void main(String [] args) {
 		Collage chirag = new Collage(101,"Chirag Rai", "Puttur", "AIML","B+",'C');

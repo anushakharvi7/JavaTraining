@@ -20,10 +20,7 @@ public class Demo {
 		System.out.println("This is a Fifth method");
 		return this;
 	}
-	public Demo m5() {
-		System.out.println("This is a Fifth method");
-		return this;
-	}
+	
 
 	public static void main(String[] args) {
 		Demo d=new Demo();
